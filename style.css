@@ -1,0 +1,76 @@
+:root {
+    --main-color: #2b3a42;      
+    --accent-color: #c0392b;    
+    --bg-color: #f4f6f7;        
+}
+@import url('https://googleapis.com');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;            
+    line-height: 1.6;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 2rem;              
+}
+header, nav, main, section, article, aside, footer {
+    background: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;           
+    margin-right: 1.5rem;
+}
+h1, h2, h3 {
+    color: var(--main-color);
+    margin-top: 0;
+}
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.7rem; }
+p {
+    text-align: justify;       
+}
+ul {
+    list-style-type: square;    
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+a {
+    color: var(--main-color);
+    text-decoration: none;      
+}
+a:hover {
+    color: var(--accent-color);
+    text-decoration: underline; 
+}
+a:visited {
+    color: #7f8c8d;             
+}
+a:active {
+    color: #4f5da4;             
+}
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.important {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+.highlight {
+    background-color: #f1c40f;   
+    padding: 0.1rem 0.3rem;
+}
